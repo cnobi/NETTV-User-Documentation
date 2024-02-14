@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Reports - NETTV DASHBOARD USER MANUAL</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Reports";
+        var mkdocs_page_input_path = "reports.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> NETTV DASHBOARD USER MANUAL
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Overview</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Login</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">NETTV Dashboard</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../dashboard/">Dashboard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../addbonus/">Add Bonus</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../buypackage/">Buy Package</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../syncpackage/">Sync Package</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../users/">Users</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../wallettopup/">Wallet Top Up</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../account/">Account</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../user-nav/">User</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offer/">Offers</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Reports</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#action-log">Action Log</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#action-log-user-interface">Action Log User Interface</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#bonus-list">Bonus List</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#bonus-list-user-interface">Bonus List User Interface</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#invoices">Invoices</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#invoices-user-interface">Invoices User Interface</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-print-an-invoice">How to Print an invoice?</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-download-invoices-records">How to download invoices records?</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#package-billing">Package Billing</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#package-billing-user-interface">Package Billing User Interface</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-cancel-a-package-billing">How to cancel a package billing?</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#package-compensation">Package Compensation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#package-compensation-user-interface">Package Compensation User Interface</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#package-extend">Package Extend</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#package-extend-user-interface">Package Extend User Interface</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#replace-list">Replace List</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#replace-list-user-interface">Replace List User Interface</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wallet-top-up-list">Wallet Top Up List</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#wallet-top-up-list-user-interface">Wallet Top Up List User Interface</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-print-a-receipt">How to Print a receipt?</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-download-wallet-top-up-records">How to download Wallet Top Up records?</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../about/">Changelogs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../faq.md">FAQs</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">NETTV DASHBOARD USER MANUAL</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">NETTV Dashboard</li>
+      <li class="breadcrumb-item active">Reports</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="reports">Reports</h1>
+<p><code>Reports</code> is where all the records of performed/executed activities reside.</p>
+<h2 id="action-log">Action Log</h2>
+<p><code>Action Log</code> sections stores the logs of the Users(WorldLink Staff) that performed certain actions on a certain Username on a certain date.</p>
+<p><img alt="Action Log Full page" src="../img/Reports%20-%20Action%20Log%20Full%20page%20empty.png" /></p>
+<hr>
+
+<h3 id="action-log-user-interface">Action Log User Interface</h3>
+<p><img alt="NETTV Action Log UI Annotated" src="../img/Reports%20-%20Action%20Log%20Annotated.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Search:</strong> Search for Action through Customer Username. <hr></li>
+<li><strong>USERNAME:</strong> Displays the Username of the NETTV Customer. <hr></li>
+<li><strong>MAC ADDRESS:</strong> Displays the Device/STB MAC Address of the respective username. <hr></li>
+<li><strong>EXCHANGE USERNAME:</strong> Displays the exchange username of the WorldLink's staff who performed the action.<hr></li>
+<li><strong>ACTION DATE:</strong> Shows when the respective action was performed.<hr></li>
+<li><strong>ACTION:</strong> Shows the action that was executed. Actions can either be <code>create</code> or <code>delete</code>.</li>
+</ol>
+<hr>
+
+<h2 id="bonus-list">Bonus List</h2>
+<p><code>Bonus List</code> section displays the logs of the bonus given to the NETTV customers when they bought a certain Internet package that included a NETTV package as a bonus.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Bonus is added automatically during the purchase of Internet package. If this doesnt happen, refer to <a href="../addbonus/">Add Bonus</a> page.</p>
+</div>
+<p><img alt="Bonus List Full page" src="../img/Reports%20-%20Bonus%20list%20Full%20Page.png" /></p>
+<hr>
+
+<h3 id="bonus-list-user-interface">Bonus List User Interface</h3>
+<p><img alt="Bonus List UI Annotated" src="../img/Reports%20-%20Bonus%20List%20Annotated.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Search:</strong> Search for Bonus added through Customer Username. <hr></li>
+<li><strong>USERNAME:</strong> Displays the Username of the NETTV Customer. <hr></li>
+<li><strong>MAC ADDRESS:</strong> Displays the Device/STB MAC Address of the respective username. <hr></li>
+<li><strong>OFFER NAME:</strong> Displays the name of the offer.<hr></li>
+<li><strong>INVOICE NUMBER:</strong> Displays the invoice number of the transaction when the customer paid their Internet bill.<hr></li>
+<li><strong>ADDED DATE:</strong> Displays the date and time of when the bonus was added. <hr></li>
+<li><strong>ADDED BY:</strong> Displays who added the bonus. If it's <code>epayment.admin</code> then it's an automated process which added the bonus automatically, if it's an exchange username of WorldLink staff then due to some issue, then respective staff added the bonus manually.</li>
+</ol>
+<hr>
+
+<h2 id="invoices">Invoices</h2>
+<p><code>Invoices</code> section displays the logs of invoice information of the Customer.</p>
+<p><img alt="Invoice Full Page" src="../img/Reports%20-%20Invoices%20Full%20page.png" /></p>
+<hr>
+
+<h3 id="invoices-user-interface">Invoices User Interface</h3>
+<p><a href="../img/Reports---Edited-Invoices-UI.png"> <img alt="Invoices UI Annotated" src="../img/Reports---Edited-Invoices-UI.png" /></a> </p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Customer ID:</strong> Displays the Username of the NETTV Customer.   <hr></li>
+<li><strong>Customer Name:</strong> Displays the Name of the customer. <hr></li>
+<li><strong>Fiscal Year/Invoice no.:</strong> Displays in which fiscal year the invoice was generated along with the Invoice number.<hr></li>
+<li><strong>Payment Gateway:</strong> Displays the gateway of the payment.<hr></li>
+<li><strong>Product Name:</strong> Displays which product the customer purchased. <hr></li>
+<li><strong>Taxable Amount:</strong> Displays the taxable amount. <hr></li>
+<li><strong>Vat Amount:</strong> Displays the VAT amount. <hr></li>
+<li><strong>Total Amount:</strong> Displays the Total amount the customer paid. <hr></li>
+<li><strong>Quantity/Unit:</strong> ????????????? <hr></li>
+<li><strong>Transaction Date:</strong> Displays the date and time of the transaction. <hr></li>
+<li><strong>Created by:</strong> Displays the creator of the invoice. <hr></li>
+<li><strong>Branch:</strong> Displays the branch office name of the creator. <hr></li>
+<li>
+<p><strong>Actions:</strong> Displays action buttons that performs certain function. <br> In this case we only have a <code>Print invoice</code> button which will open the invoice in a ready to print (.pdf) format.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<h5 id="how-to-print-an-invoice">How to Print an invoice?</h5>
+<p><img alt="Print invoice Interface" src="../img/Reports%20-%20Invoices%20PRINT%20GIF.gif" /></p>
+<ol>
+<li>Click the <code>Print invoice</code> at the end of the row of a desired Customer.</li>
+<li>A new tab with Invoice will open.</li>
+<li>Click the <code>Print</code> icon. (<em>Depends upon the Internet Browser.</em>)</li>
+<li>Click the <code>Print</code> button to begin printing the invoice. </li>
+</ol>
+</div>
+<hr>
+</li>
+<li>
+<p><strong>Download Button:</strong> Downloads the invoices records from a selected date range in an Excel format.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<h5 id="how-to-download-invoices-records">How to download invoices records?</h5>
+<p><img alt="Invoice Download Interface" src="../img/Reports%20-%20Invoices%20DOWNLOAD%20GIF.gif" /></p>
+<ol>
+<li>Select a starting date in  <code>From Date</code>.</li>
+<li>Select an ending date in <code>To Date</code>.</li>
+<li>Click <code>Download</code> button to export the records in an Excel format. </li>
+</ol>
+</div>
+<hr>
+</li>
+<li>
+<p><strong>Refresh Button:</strong> Refreshes the Invoices UI. <hr></p>
+</li>
+<li>
+<p><strong>Filter Button:</strong> Filters the Invoices records based on given criterias.</p>
+<p><img alt="Invoice Filter Interface" src="../img/Reports%20-%20Invoices%20-%20Filter%20Annotated.png" /></p>
+<p>Here, users can filter the invoices records with</p>
+<ol>
+<li><strong>Username:</strong> Customer's Username.</li>
+<li><strong>Created by:</strong> Creator of the Invoice.</li>
+<li><strong>Branch:</strong> Certain WorldLink branches.</li>
+<li><strong>From Date:</strong> A starting date.</li>
+<li><strong>To Date:</strong> An ending date.</li>
+</ol>
+</li>
+</ol>
+<hr>
+
+<h2 id="package-billing">Package Billing</h2>
+<p><code>Package Billing</code> section displays the logs of the billing of the NETTV packages. <em>NEED TO REVIEW and MAKE AMMENDMENTS</em> <!-- Needs improvement --></p>
+<p><img alt="Package billing Full Page" src="../img/Reports%20-%20Package%20billing%20FULL%20PAGE.png" /></p>
+<hr>
+
+<h3 id="package-billing-user-interface">Package Billing User Interface</h3>
+<p><img alt="Package billing UI Annotated" src="../img/Reports%20-%20Package%20BIlling%20UI.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Username:</strong> Displays the Username of the NETTV Customer. <hr></li>
+<li><strong>Serial:</strong> Displays the Device/STB MAC Address of the respective username. <hr></li>
+<li><strong>Package Name:</strong> Name of the Package. <hr></li>
+<li><strong>Quantity:</strong> Displays the total number of days of the package.<hr></li>
+<li><strong>Created Date:</strong> Displays the the creation date of the package bill.<hr></li>
+<li><strong>Expiry Date:</strong> Displays the expiry date of the package. <hr></li>
+<li><strong>Create By:</strong> Displays who created the package bill. If it's <code>epayment.admin</code> then it's an automated process which created the package bill automatically or if it's an exchange username of WorldLink staff then due to some issue, the respective staff added the bonus manually. <em>NEED TO REVIEW and MAKE AMMENDMENTS</em> <hr></li>
+<li><strong>Status:</strong> Displays if the package is <code>Active</code> or not. <hr></li>
+<li>
+<p><strong>ACTIONS:</strong> Displays action buttons that performs certain function. <br> In this case we only have a <code>cancel</code> button which cancels the package billing.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<h5 id="how-to-cancel-a-package-billing">How to cancel a package billing?</h5>
+<p><img alt="Cancel Billing package Interface" src="../img/Reports%20-%20Pack%20billing%20-%20Cancel%20GIF.gif" /></p>
+<ol>
+<li>Click <code>CANCEL</code> button of a desired Customer.</li>
+<li>Enter a valid cancel note in the <code>Cancel note</code> field.</li>
+<li>Click <code>OK</code> to confirm the Cancellation. </li>
+</ol>
+</div>
+</li>
+</ol>
+<hr>
+
+<h2 id="package-compensation">Package Compensation</h2>
+<p><code>Package Compensation</code> section displays the logs of every compensation made to the NETTV Customer. </p>
+<p><img alt="Package compensation detail" src="../img/Reports%20-%20Package%20Compensation%20FULL%20PAGE.png" /></p>
+<hr>
+
+<h3 id="package-compensation-user-interface">Package Compensation User Interface</h3>
+<p><img alt="Package Compensation UI Annotated" src="../img/Reports%20-%20Package%20Compensation%20Annonated.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Username:</strong> Displays the Username of the NETTV Customer.   <hr></li>
+<li><strong>Serial:</strong> Displays the Device/STB MAC Address of the respective username. <hr></li>
+<li><strong>Days:</strong> Displays the total number of compensated days.<hr></li>
+<li><strong>Remarks:</strong> Displays the remarks for the compensation.<hr></li>
+<li><strong>Operator:</strong> Displays the operator of the compensation. <hr></li>
+<li><strong>Compensate Date:</strong> Displays when the compensation was given. <hr></li>
+<li><strong>Status:</strong> Displays whether the compensation process was completed (<code>success</code>) or not (<code>fail</code>) <hr></li>
+<li>
+<p><strong>Filter:</strong> Filters the Package Compensation records based on given criterias.</p>
+<p><img alt="Package Compensation Filter Interface" src="../img/Reports%20-%20Package%20Compensation%20FILTER%20annonated.png" /></p>
+<p>Here, users can filter the Package compensation records with</p>
+<ol>
+<li><strong>Username:</strong> Customer's Username.</li>
+<li><strong>Serial:</strong> Device/STB MAC Address.</li>
+<li><strong>Days:</strong> Number of compensated days.</li>
+<li><strong>Operator:</strong> Name of the compensator. </li>
+</ol>
+</li>
+</ol>
+<hr>
+
+<h2 id="package-extend">Package Extend</h2>
+<p><code>Pcakage Extend</code> section displays the logs of all the activities of the NETTV extension given to the customer.</p>
+<p><img alt="Package Extend Full Page" src="../img/Reports%20-%20Package%20Extend%20FULL%20PAGE.png" /></p>
+<hr>
+
+<h3 id="package-extend-user-interface">Package Extend User Interface</h3>
+<p><img alt="Package Extend UI Annotated" src="../img/Reports%20-%20Package%20extend%20UI%20Annonate.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Username:</strong> Displays the Username of the NETTV Customer.   <hr></li>
+<li><strong>Serial:</strong> Displays the Device/STB MAC Address of the respective username. <hr></li>
+<li><strong>Days:</strong> Displays the total number of extended days.<hr></li>
+<li><strong>Remarks:</strong> Displays the remarks added by the extender.<hr></li>
+<li><strong>Operator:</strong> Displays the operator of the extension. <hr></li>
+<li><strong>Extend Date:</strong> Displays when the package was extended. <hr></li>
+<li><strong>Status:</strong> Displays whether the extension is <code>Active</code> or <code>Inactive</code> <hr></li>
+<li>
+<p><strong>Filter:</strong> Filters the Package Extension records based on given criterias.</p>
+<p><img alt="Package Extend Filter Interface" src="../img/Reports%20-%20Package%20Extend%20Filter%20Annonate.png" /></p>
+<p>Here, users can filter the Package compensation records with</p>
+<ol>
+<li><strong>Username:</strong> Customer's Username.</li>
+<li><strong>Serial:</strong> Device/STB MAC Address.</li>
+<li><strong>Days:</strong> Number of compensated days.</li>
+<li><strong>Operator:</strong> Name of the compensator. </li>
+</ol>
+</li>
+</ol>
+<hr>
+
+<h2 id="replace-list">Replace List</h2>
+<p><code>Replace List</code> section displays the list of the Set Top Box (STB) replacement from one device to another.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Replacement not only replaces a damaged STB with a new one but also migrates any NETTV Customer with Old system into a new one.</p>
+</div>
+<p><img alt="Replace List Full page" src="../img/Reports%20-%20Replace%20List%20Full%20Page.png" /></p>
+<hr>
+
+<h3 id="replace-list-user-interface">Replace List User Interface</h3>
+<p><img alt="Replace List UI Annotated" src="../img/Reports%20-%20Replace%20List%20UI%20Annonated" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>Search:</strong> Search for Bonus added through Customer Username.   <hr></li>
+<li><strong>USERNAME:</strong> Displays the Username of the NETTV Customer.   <hr></li>
+<li><strong>OLD MAC ADDRESS:</strong> Displays the Device/STB MAC Address of the old Device/STB <hr></li>
+<li><strong>NEW MAC ADDRESS:</strong> Displays the Device/STB MAC Address of the new Device/STB. <hr></li>
+<li><strong>REPLACE DATE:</strong> Displays the date of the replacement made.<hr></li>
+<li><strong>REPLACE BY:</strong> Displays the name of the WorldLink Field Staff/Attendant (FA) who replaced the Device/STB.<hr></li>
+<li><strong>REASON:</strong> Displays the reason for which the replacement was made.</li>
+</ol>
+<hr>
+
+<h2 id="wallet-top-up-list">Wallet Top Up List</h2>
+<p><code>Wallet Top Up List</code> section displays the logs of In App Wallet Recharge/Topup made by Customers in their NETTV Account.</p>
+<p><img alt="Wallet Top Up List Full Page" src="../img/Reports%20-%20Wallet%20Top%20Up%20List%20FULL%20PAGE.png" /></p>
+<hr>
+
+<h3 id="wallet-top-up-list-user-interface">Wallet Top Up List User Interface</h3>
+<p><img alt="Wallet Top Up List UI Annotated" src="../img/Reports%20-%20Wallet%20Top%20up%20List%20Annonate.png" /></p>
+<p>The User Interface can be broken down into:</p>
+<ol>
+<li><strong>USERNAME:</strong> Displays the Username of the NETTV Customer.   <hr></li>
+<li><strong>AMOUNT(RS):</strong> Displays the Recharge/Top up amount. <hr></li>
+<li><strong>RECEIPT NO:</strong> Displays generated receipt number.<hr></li>
+<li><strong>ADDED BY:</strong> Displays who added the Amount ??????????????????????????????????????????. <hr></li>
+<li><strong>BRANCH:</strong> Displays the branch office name of the adder. <hr></li>
+<li><strong>ADDED DATE:</strong> Displays the date and time of the transaction. <hr></li>
+<li>
+<p><strong>RECEIPT:</strong> Displays action buttons that performs certain function. <br> In this case we only have a <code>Print invoice</code> (SHOULD BE PRINT RECEIPT????????????) button which will open the receipt in a ready to print (.pdf) format.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<h5 id="how-to-print-a-receipt">How to Print a receipt?</h5>
+<p><img alt="Print receipe Interface" src="../img/Reports%20-%20Wallet%20Top%20up%20-%20Print%20Receipt%20GIF.gif" /></p>
+<ol>
+<li>Click the <code>Print invoice</code> at the end of the row of a desired Customer.</li>
+<li>A new tab with Receipt will open.</li>
+<li>Click the <code>Print</code> icon. (<em>Depends upon the Internet Browser.</em>)</li>
+<li>Click the <code>Print</code> button to begin printing the receipt. </li>
+</ol>
+</div>
+<hr>
+</li>
+<li>
+<p><strong>Download Button:</strong> Downloads the Wallet Top Up records from a selected date range in an Excel format.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<h5 id="how-to-download-wallet-top-up-records">How to download Wallet Top Up records?</h5>
+<p><img alt="Wallet Top Up Download Interface" src="../img/Reports%20-%20Wallet%20Top%20Up%20-%20Download%20GIF.gif" /></p>
+<ol>
+<li>Select a Branch from <code>Branch</code> dropdown menu in the filter.</li>
+<li>Click <code>Download</code> button to export the records in an Excel format. </li>
+</ol>
+</div>
+<hr>
+</li>
+<li>
+<p><strong>Filter Button:</strong> Filters the Wallet Top Up records based on given criterias.</p>
+<p><img alt="Wallet Top Up Filter Interface" src="../img/Reports%20-%20Wallet%20Top%20Up%20FILTER%20annonate.png" /></p>
+<p>Here, users can filter the Wallet top up records with</p>
+<ol>
+<li><strong>Username:</strong> Customer's Username.</li>
+<li><strong>Created by:</strong> Creator of the Invoice.</li>
+<li><strong>Branch:</strong> Desired WorldLink branches.</li>
+<li><strong>From Date:</strong> A starting date.</li>
+<li><strong>To Date:</strong> An ending date.</li>
+</ol>
+</li>
+</ol>
+<hr>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../offer/" class="btn btn-neutral float-left" title="Offers"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../about/" class="btn btn-neutral float-right" title="Changelogs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../offer/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
